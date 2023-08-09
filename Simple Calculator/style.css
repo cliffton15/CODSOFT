@@ -1,0 +1,40 @@
+html,body{
+    height: 100%;
+    width: 100% ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: rgb(10, 10, 185);
+}
+.button{
+    background-color: rgb(143, 205, 255);
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(45, 152, 240);
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    background-color: rgb(151, 241, 196);
+    width: 291px;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.inner-container{
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 0;
+    height: 460px;
+    width: 360px ;
+    background-color: rgb(152, 191, 241);
+}
